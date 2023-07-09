@@ -1,7 +1,8 @@
-modern_sozluk={ "LOL":"sesli gulmek", "SHEESH":"onaylamamak", "CRINGE":"garip ya da utandırıcı bir şey"}
-soru=input("Neyin anlamını öğrenmek istersinn ???✨")
-soru = soru.upper()
-if soru in modern_sozluk.keys():
-    print(modern_sozluk[soru])
-else:
-    print("Aradığınız Kelimeye Şu an Ulaşılamıyor Lütfen Tekrar Deneyiniz...")
+while True:
+    modern_sozluk={ "LOL":"sesli gulmek", "SHEESH":"onaylamamak", "CRINGE":"garip ya da utandırıcı bir şey","ROFL":"bir şakaya karşılık cevap", "CREEPY":"korkunç", "AGGRO":"Agresifleşmek/sinirlenmek"}
+    soru=input("Neyin anlamını öğrenmek istersinn ???✨")
+    soru = soru.upper()
+    if soru in modern_sozluk.keys():
+        print(modern_sozluk[soru])
+    else:
+        print("Aradığınız Kelimeye Şu an Ulaşılamıyor Lütfen Tekrar Deneyiniz...")
